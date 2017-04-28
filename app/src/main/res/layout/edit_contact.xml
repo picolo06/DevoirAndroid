@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.claudy.devoirandroid.edit_contact"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier Contact" />
+
+    <EditText
+        android:id="@+id/edittId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/ednomtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom" />
+
+    <EditText
+        android:id="@+id/enom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nom" />
+
+    <TextView
+        android:id="@+id/edprenomtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prenom" />
+
+    <EditText
+        android:id="@+id/eprenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Prenom" />
+
+    <TextView
+        android:id="@+id/edmailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mail" />
+
+    <TextView
+        android:id="@+id/edteltxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone" />
+
+    <EditText
+        android:id="@+id/etel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Telephone" />
+
+    <TextView
+        android:id="@+id/edadrtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adresse" />
+
+    <EditText
+        android:id="@+id/eadr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Adresse" />
+
+    <TextView
+        android:id="@+id/edstattxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statut" />
+
+    <EditText
+        android:id="@+id/estat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Statut" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnViewUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:backgroundTint="@android:color/darker_gray"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_mode_edit_black_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="cancelsv"
+            app:backgroundTint="@android:color/darker_gray"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_cancel_black_24dp" />
+    </LinearLayout>
+
+</LinearLayout>
